@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-dataset = pd.read_csv('ML Projects\Breast Cancer (Logistic Regression)\Breast_cancer.csv')
+dataset = pd.read_csv('Breast_cancer.csv')
 x = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
